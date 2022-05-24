@@ -13,6 +13,8 @@ BuildRequires:	tar >= 1:1.22
 BuildRequires:	xz
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
+%define		_enable_debug_packages	0
+
 %description
 This is a set of C headers containing macros and static functions that
 are expected to work on Unix-like systems and MS Windows that have
